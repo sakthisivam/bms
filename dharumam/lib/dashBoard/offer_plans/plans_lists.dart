@@ -20,7 +20,7 @@ class OffersMenu {
         id: 1,
         duration: '40 Weak',
         packHeader: 'BP',
-        packName: 'Basic Pack',
+        packName: 'Trail Pack',
         value: 5000.00,
       ),
       OfferPlansList(
@@ -28,7 +28,7 @@ class OffersMenu {
         id: 2,
         duration: '40 Weak',
         packHeader: 'TP',
-        packName: 'Trial Pack',
+        packName: 'Basic Pack',
         value: 5000.00,
       ),
       OfferPlansList(
@@ -99,7 +99,7 @@ class OffersMenu1 {
   static List<OfferPlansList1> getOfferPlans1Menu() {
     return [
       OfferPlansList1(
-        image: 'regular_pack',
+        image: 'regular_pack_1',
         id: 1,
         duration: '40 Weak',
         packHeader: 'BP',

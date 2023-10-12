@@ -3,15 +3,16 @@ import 'package:provider/provider.dart';
 
 import 'dashBoard/main_screen.dart';
 import 'dashBoard/profile_page.dart';
-import 'dashBoard/provider/movie_provider.dart';
+// import 'dashBoard/provider/movie_provider.dart';
 import 'dashBoard/sidemenu.dart';
 
 void main() {
   runApp(
-    ChangeNotifierProvider<MovieProvider>(
-      child: const MyApp(),
-      create: (context) => MovieProvider(),
-    ),
+     const MyApp(),
+    // ChangeNotifierProvider<MovieProvider>(
+    //   child: const MyApp(),
+    //   create: (context) => MovieProvider(),
+    // ),
   );
 }
 

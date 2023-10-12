@@ -227,7 +227,8 @@ class _ProfilePageState extends State<ProfilePage> {
                                                 contentPadding:
                                                     const EdgeInsets.all(10),
                                                 labelStyle: TextStyle(
-                                                   fontFamily: 'Roboto-Regular',
+                                                    fontFamily:
+                                                        'Roboto-Regular',
                                                     color: btn.withOpacity(1.0),
                                                     fontWeight: FontWeight.bold,
                                                     fontSize: 11),
@@ -256,7 +257,8 @@ class _ProfilePageState extends State<ProfilePage> {
                                                 contentPadding:
                                                     const EdgeInsets.all(10),
                                                 labelStyle: TextStyle(
-                                                   fontFamily: 'Roboto-Regular',
+                                                    fontFamily:
+                                                        'Roboto-Regular',
                                                     color: btn.withOpacity(1.0),
                                                     fontWeight: FontWeight.bold,
                                                     fontSize: 11),
@@ -336,7 +338,7 @@ class _ProfilePageState extends State<ProfilePage> {
                                       labelText: 'House Number',
                                       contentPadding: const EdgeInsets.all(10),
                                       labelStyle: TextStyle(
-                                         fontFamily: 'Roboto-Bold',
+                                          fontFamily: 'Roboto-Bold',
                                           color: btn.withOpacity(1.0),
                                           fontWeight: FontWeight.bold,
                                           fontSize: height * 0.013),
@@ -381,7 +383,7 @@ class _ProfilePageState extends State<ProfilePage> {
                                       labelText: 'Street / Road',
                                       contentPadding: const EdgeInsets.all(10),
                                       labelStyle: TextStyle(
-                                         fontFamily: 'Roboto-Bold',
+                                          fontFamily: 'Roboto-Bold',
                                           color: btn.withOpacity(1.0),
                                           fontWeight: FontWeight.bold,
                                           fontSize: height * 0.013),
@@ -470,7 +472,7 @@ class _ProfilePageState extends State<ProfilePage> {
                                       labelText: 'State',
                                       contentPadding: const EdgeInsets.all(10),
                                       labelStyle: TextStyle(
-                                         fontFamily: 'Roboto-Bold',
+                                          fontFamily: 'Roboto-Bold',
                                           color: btn.withOpacity(1.0),
                                           fontWeight: FontWeight.bold,
                                           fontSize: height * 0.013),
@@ -514,7 +516,7 @@ class _ProfilePageState extends State<ProfilePage> {
                                       labelText: 'PIN Code',
                                       contentPadding: const EdgeInsets.all(10),
                                       labelStyle: TextStyle(
-                                         fontFamily: 'Roboto-Bold',
+                                          fontFamily: 'Roboto-Bold',
                                           color: btn.withOpacity(1.0),
                                           fontWeight: FontWeight.bold,
                                           fontSize: height * 0.013),
@@ -603,7 +605,7 @@ class _ProfilePageState extends State<ProfilePage> {
                                       labelText: 'Phone',
                                       contentPadding: const EdgeInsets.all(10),
                                       labelStyle: TextStyle(
-                                         fontFamily: 'Roboto-Bold',
+                                          fontFamily: 'Roboto-Bold',
                                           color: btn.withOpacity(1.0),
                                           fontWeight: FontWeight.bold,
                                           fontSize: height * 0.013),
@@ -647,7 +649,7 @@ class _ProfilePageState extends State<ProfilePage> {
                                       labelText: 'Alternative Phone Number',
                                       contentPadding: const EdgeInsets.all(10),
                                       labelStyle: TextStyle(
-                                         fontFamily: 'Roboto-Bold',
+                                          fontFamily: 'Roboto-Bold',
                                           color: btn.withOpacity(1.0),
                                           fontWeight: FontWeight.bold,
                                           fontSize: height * 0.013),
@@ -662,7 +664,7 @@ class _ProfilePageState extends State<ProfilePage> {
                                   child: Text(
                                     "Bank Details",
                                     style: TextStyle(
-                                       fontFamily: 'Roboto-Bold',
+                                        fontFamily: 'Roboto-Bold',
                                         color: btn.withOpacity(1.0),
                                         fontWeight: FontWeight.bold,
                                         fontSize: height * 0.024),
@@ -720,7 +722,7 @@ class _ProfilePageState extends State<ProfilePage> {
                                             contentPadding:
                                                 const EdgeInsets.all(10),
                                             labelStyle: TextStyle(
-                                               fontFamily: 'Roboto-Bold',
+                                                fontFamily: 'Roboto-Bold',
                                                 color: btn.withOpacity(1.0),
                                                 fontWeight: FontWeight.bold,
                                                 fontSize: height * 0.013),
@@ -765,7 +767,7 @@ class _ProfilePageState extends State<ProfilePage> {
                                             contentPadding:
                                                 const EdgeInsets.all(10),
                                             labelStyle: TextStyle(
-                                               fontFamily: 'Roboto-Bold',
+                                                fontFamily: 'Roboto-Bold',
                                                 color: btn.withOpacity(1.0),
                                                 fontWeight: FontWeight.bold,
                                                 fontSize: height * 0.013),
@@ -810,7 +812,7 @@ class _ProfilePageState extends State<ProfilePage> {
                                             contentPadding:
                                                 const EdgeInsets.all(10),
                                             labelStyle: TextStyle(
-                                               fontFamily: 'Roboto-Bold',
+                                                fontFamily: 'Roboto-Bold',
                                                 color: btn.withOpacity(1.0),
                                                 fontWeight: FontWeight.bold,
                                                 fontSize: height * 0.013),
@@ -856,7 +858,7 @@ class _ProfilePageState extends State<ProfilePage> {
                                             contentPadding:
                                                 const EdgeInsets.all(10),
                                             labelStyle: TextStyle(
-                                               fontFamily: 'Roboto-Bold',
+                                                fontFamily: 'Roboto-Bold',
                                                 color: btn.withOpacity(1.0),
                                                 fontWeight: FontWeight.bold,
                                                 fontSize: height * 0.013),
@@ -879,7 +881,6 @@ class _ProfilePageState extends State<ProfilePage> {
                                             ),
                                           ],
                                           style: TextStyle(
-                                            
                                               color: btn.withOpacity(1.0),
                                               fontFamily: 'Roboto-Bold',
                                               fontSize: height * 0.013),
@@ -948,7 +949,7 @@ class _ProfilePageState extends State<ProfilePage> {
                                             contentPadding:
                                                 const EdgeInsets.all(10),
                                             labelStyle: TextStyle(
-                                               fontFamily: 'Roboto-Bold',
+                                                fontFamily: 'Roboto-Bold',
                                                 color: btn.withOpacity(1.0),
                                                 fontWeight: FontWeight.bold,
                                                 fontSize: height * 0.013),
@@ -966,7 +967,7 @@ class _ProfilePageState extends State<ProfilePage> {
                                   child: Text(
                                     "Re Enter Bank Details",
                                     style: TextStyle(
-                                       fontFamily: 'Roboto-Bold',
+                                        fontFamily: 'Roboto-Bold',
                                         color: btn.withOpacity(1.0),
                                         fontWeight: FontWeight.bold,
                                         fontSize: height * 0.024),
@@ -1025,7 +1026,7 @@ class _ProfilePageState extends State<ProfilePage> {
                                             contentPadding:
                                                 const EdgeInsets.all(10),
                                             labelStyle: TextStyle(
-                                               fontFamily: 'Roboto-Bold',
+                                                fontFamily: 'Roboto-Bold',
                                                 color: btn.withOpacity(1.0),
                                                 fontWeight: FontWeight.bold,
                                                 fontSize: height * 0.013),
@@ -1071,7 +1072,7 @@ class _ProfilePageState extends State<ProfilePage> {
                                             contentPadding:
                                                 const EdgeInsets.all(10),
                                             labelStyle: TextStyle(
-                                               fontFamily: 'Roboto-Bold',
+                                                fontFamily: 'Roboto-Bold',
                                                 color: btn.withOpacity(1.0),
                                                 fontWeight: FontWeight.bold,
                                                 fontSize: height * 0.013),
@@ -1116,7 +1117,7 @@ class _ProfilePageState extends State<ProfilePage> {
                                             contentPadding:
                                                 const EdgeInsets.all(10),
                                             labelStyle: TextStyle(
-                                               fontFamily: 'Roboto-Bold',
+                                                fontFamily: 'Roboto-Bold',
                                                 color: btn.withOpacity(1.0),
                                                 fontWeight: FontWeight.bold,
                                                 fontSize: height * 0.013),
@@ -1162,7 +1163,7 @@ class _ProfilePageState extends State<ProfilePage> {
                                             contentPadding:
                                                 const EdgeInsets.all(10),
                                             labelStyle: TextStyle(
-                                               fontFamily: 'Roboto-Bold',
+                                                fontFamily: 'Roboto-Bold',
                                                 color: btn.withOpacity(1.0),
                                                 fontWeight: FontWeight.bold,
                                                 fontSize: height * 0.013),
@@ -1207,7 +1208,7 @@ class _ProfilePageState extends State<ProfilePage> {
                                             contentPadding:
                                                 const EdgeInsets.all(10),
                                             labelStyle: TextStyle(
-                                               fontFamily: 'Roboto-Bold',
+                                                fontFamily: 'Roboto-Bold',
                                                 color: btn.withOpacity(1.0),
                                                 fontWeight: FontWeight.bold,
                                                 fontSize: height * 0.013),
@@ -1253,7 +1254,7 @@ class _ProfilePageState extends State<ProfilePage> {
                                             contentPadding:
                                                 const EdgeInsets.all(10),
                                             labelStyle: TextStyle(
-                                               fontFamily: 'Roboto-Bold',
+                                                fontFamily: 'Roboto-Bold',
                                                 color: btn.withOpacity(1.0),
                                                 fontWeight: FontWeight.bold,
                                                 fontSize: height * 0.013),
@@ -1329,7 +1330,7 @@ class _ProfilePageState extends State<ProfilePage> {
                                             contentPadding:
                                                 const EdgeInsets.all(10),
                                             labelStyle: TextStyle(
-                                               fontFamily: 'Roboto-Bold',
+                                                fontFamily: 'Roboto-Bold',
                                                 color: btn.withOpacity(1.0),
                                                 fontWeight: FontWeight.bold,
                                                 fontSize: height * 0.013),
@@ -1374,119 +1375,138 @@ class _ProfilePageState extends State<ProfilePage> {
                                             contentPadding:
                                                 const EdgeInsets.all(10),
                                             labelStyle: TextStyle(
-                                               fontFamily: 'Roboto-Bold',
+                                                fontFamily: 'Roboto-Bold',
                                                 color: btn.withOpacity(1.0),
                                                 fontWeight: FontWeight.bold,
                                                 fontSize: height * 0.013),
                                           ),
                                         ),
                                       ),
-                                     Stack(
-                                  children: [
-                                    Row(
-                                      mainAxisAlignment:
-                                          MainAxisAlignment.start,
-                                      children: [
-                                        Expanded(
-                                          flex: 4,
-                                          child: Container(
-                                            margin: EdgeInsets.only(
-                                              left: width * 0.04,
-                                            ),
-                                            height: height * 0.05,
-                                            child: TextFormField(
-                                              controller: countryCodeController,
-                                              decoration: InputDecoration(
-                                                floatingLabelBehavior:
-                                                    FloatingLabelBehavior
-                                                        .always,
-                                                border: OutlineInputBorder(
-                                                  borderRadius:
-                                                      BorderRadius.circular(10),
+                                      Stack(
+                                        children: [
+                                          Row(
+                                            mainAxisAlignment:
+                                                MainAxisAlignment.start,
+                                            children: [
+                                              Expanded(
+                                                flex: 4,
+                                                child: Container(
+                                                  margin: EdgeInsets.only(
+                                                    left: width * 0.04,
+                                                  ),
+                                                  height: height * 0.05,
+                                                  child: TextFormField(
+                                                    controller:
+                                                        countryCodeController,
+                                                    decoration: InputDecoration(
+                                                      floatingLabelBehavior:
+                                                          FloatingLabelBehavior
+                                                              .always,
+                                                      border:
+                                                          OutlineInputBorder(
+                                                        borderRadius:
+                                                            BorderRadius
+                                                                .circular(10),
+                                                      ),
+                                                      counterText: '',
+                                                      labelText: 'Country code',
+                                                      contentPadding:
+                                                          const EdgeInsets.all(
+                                                              10),
+                                                      labelStyle: TextStyle(
+                                                          fontFamily:
+                                                              'Roboto-Bold',
+                                                          color: btn
+                                                              .withOpacity(1.0),
+                                                          fontWeight:
+                                                              FontWeight.bold,
+                                                          fontSize: 11),
+                                                    ),
+                                                  ),
                                                 ),
-                                                counterText: '',
-                                                labelText: 'Country code',
-                                                contentPadding:
-                                                    const EdgeInsets.all(10),
-                                                labelStyle: TextStyle(
-                                                   fontFamily: 'Roboto-Bold',
-                                                    color: btn.withOpacity(1.0),
-                                                    fontWeight: FontWeight.bold,
-                                                    fontSize: 11),
                                               ),
-                                            ),
+                                              Expanded(
+                                                flex: 6,
+                                                child: Container(
+                                                  margin: EdgeInsets.symmetric(
+                                                    horizontal: width * 0.04,
+                                                  ),
+                                                  height: height * 0.05,
+                                                  child: TextFormField(
+                                                    decoration: InputDecoration(
+                                                      floatingLabelBehavior:
+                                                          FloatingLabelBehavior
+                                                              .always,
+                                                      border:
+                                                          OutlineInputBorder(
+                                                        borderRadius:
+                                                            BorderRadius
+                                                                .circular(10),
+                                                      ),
+                                                      counterText: '',
+                                                      labelText:
+                                                          'Phone Number*',
+                                                      contentPadding:
+                                                          const EdgeInsets.all(
+                                                              10),
+                                                      labelStyle: TextStyle(
+                                                          fontFamily:
+                                                              'Roboto-Bold',
+                                                          color: btn
+                                                              .withOpacity(1.0),
+                                                          fontWeight:
+                                                              FontWeight.bold,
+                                                          fontSize: 11),
+                                                    ),
+                                                  ),
+                                                ),
+                                              ),
+                                            ],
                                           ),
-                                        ),
-                                        Expanded(
-                                          flex: 6,
-                                          child: Container(
+                                          Container(
                                             margin: EdgeInsets.symmetric(
                                               horizontal: width * 0.04,
                                             ),
-                                            height: height * 0.05,
-                                            child: TextFormField(
-                                              decoration: InputDecoration(
-                                                floatingLabelBehavior:
-                                                    FloatingLabelBehavior
-                                                        .always,
-                                                border: OutlineInputBorder(
-                                                  borderRadius:
-                                                      BorderRadius.circular(10),
+                                            // width: width,
+                                            child: Row(
+                                              children: [
+                                                CountryListPick(
+                                                  theme: CountryTheme(
+                                                    labelColor:
+                                                        btn.withOpacity(1.0),
+                                                    isShowFlag: false,
+                                                    isShowTitle: false,
+                                                    isShowCode: true,
+                                                    isDownIcon: true,
+                                                    showEnglishName: true,
+                                                  ),
+                                                  initialSelection: 'US',
+                                                  onChanged:
+                                                      (CountryCode? code) {
+                                                    countryCodeController.text =
+                                                        code!.name!;
+                                                    print(code.name);
+                                                    print(code.code);
+                                                    print(code.dialCode);
+                                                    print(code.flagUri);
+                                                  },
                                                 ),
-                                                counterText: '',
-                                                labelText: 'Phone Number*',
-                                                contentPadding:
-                                                    const EdgeInsets.all(10),
-                                                labelStyle: TextStyle(
-                                                   fontFamily: 'Roboto-Bold',
-                                                    color: btn.withOpacity(1.0),
-                                                    fontWeight: FontWeight.bold,
-                                                    fontSize: 11),
-                                              ),
+                                                // SizedBox(width: width * 0.1),
+                                              ],
                                             ),
                                           ),
-                                        ),
-                                      ],
-                                    ),
-                                    Container(
-                                      margin: EdgeInsets.symmetric(
-                                        horizontal: width * 0.04,
-                                      ),
-                                      // width: width,
-                                      child: Row(
-                                        children: [
-                                          CountryListPick(
-                                            theme: CountryTheme(
-                                              labelColor: btn.withOpacity(1.0),
-                                              isShowFlag: false,
-                                              isShowTitle: false,
-                                              isShowCode: true,
-                                              isDownIcon: true,
-                                              showEnglishName: true,
-                                            ),
-                                            initialSelection: 'US',
-                                            onChanged: (CountryCode? code) {
-                                              countryCodeController.text =
-                                                  code!.name!;
-                                              print(code.name);
-                                              print(code.code);
-                                              print(code.dialCode);
-                                              print(code.flagUri);
-                                            },
-                                          ),
-                                          // SizedBox(width: width * 0.1),
                                         ],
                                       ),
-                                    ),
-                                  ],
-                                ),
                                     ],
                                   ),
                                 ),
                                 SizedBox(height: 10),
                                 Center(
                                   child: ElevatedButton(
-                                    style: ButtonStyle(backgroundColor: MaterialStateColor.resolveWith((states) => Colors.red)),
+                                    style: ButtonStyle(
+                                        backgroundColor:
+                                            MaterialStateColor.resolveWith(
+                                                (states) => Colors.red)),
                                     onPressed: () {
                                       // Save profile details
                                       saveProfile();
@@ -1494,7 +1514,7 @@ class _ProfilePageState extends State<ProfilePage> {
                                     child: Text(
                                       'Save',
                                       style: TextStyle(
-                                         fontFamily: 'Roboto-Bold',
+                                          fontFamily: 'Roboto-Bold',
                                           color: btn.withOpacity(1.0),
                                           fontWeight: FontWeight.bold,
                                           fontSize: height * 0.013),
