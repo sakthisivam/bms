@@ -5,6 +5,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
 import '../constants/colors.dart';
+import 'package:quickalert/quickalert.dart';
 
 class ProfilePage extends StatefulWidget {
   const ProfilePage({super.key});
@@ -32,13 +33,9 @@ class _ProfilePageState extends State<ProfilePage> {
   @override
   void initState() {
     super.initState();
-    // countries = countryCodeList.map((country) {
-    //   return {
-    //     'name': country.name,
-    //     'code': country.code,
-    //   };
-    // }).toList();
+  
   }
+  
 
   @override
   Widget build(BuildContext context) {
@@ -146,7 +143,7 @@ class _ProfilePageState extends State<ProfilePage> {
                                             BorderRadius.circular(10.0),
                                       ),
                                       counterText: '',
-                                      labelText: 'Name',
+                                      labelText: 'First Name',
                                       contentPadding: const EdgeInsets.all(10),
                                       labelStyle: TextStyle(
                                           color: btn.withOpacity(1.0),
@@ -1500,16 +1497,17 @@ class _ProfilePageState extends State<ProfilePage> {
                                     ],
                                   ),
                                 ),
-                                SizedBox(height: 10),
+                                const SizedBox(height: 10),
                                 Center(
                                   child: ElevatedButton(
                                     style: ButtonStyle(
                                         backgroundColor:
                                             MaterialStateColor.resolveWith(
-                                                (states) => Colors.red)),
+                                                (states) => Colors.lightBlue)),
                                     onPressed: () {
                                       // Save profile details
                                       saveProfile();
+                                      showAlertLogin(QuickAlertType.success);
                                     },
                                     child: Text(
                                       'Save',
@@ -1534,6 +1532,48 @@ class _ProfilePageState extends State<ProfilePage> {
           ),
         ],
       ),
+    );
+  }
+
+  void showAlertLogin(QuickAlertType quickAlertType) {
+    QuickAlert.show(
+      context: context,
+      title: "Document Saved",
+      confirmBtnText: "Close",
+      type: quickAlertType,
+      confirmBtnColor: const Color(0x005A80E8).withOpacity(1.0),
+      titleColor: textfieldLabel,
+      confirmBtnTextStyle: TextStyle(
+        fontFamily: 'Calibri',
+        fontSize: 20,
+        color: selectedTextColor,
+        fontWeight: FontWeight.w700,
+      ),
+      width: 500,
+      onConfirmBtnTap: () {
+        Navigator.pop(context);
+      },
+    );
+  }
+
+  void showAlertError(QuickAlertType quickAlertType) {
+    QuickAlert.show(
+      context: context,
+      title: "Enter all the details",
+      confirmBtnText: "Close",
+      type: quickAlertType,
+      confirmBtnColor: const Color(0x005A80E8).withOpacity(1.0),
+      titleColor: textfieldLabel,
+      confirmBtnTextStyle: TextStyle(
+        fontFamily: 'Calibri',
+        fontSize: 20,
+        color: selectedTextColor,
+        fontWeight: FontWeight.w700,
+      ),
+      width: 500,
+      onConfirmBtnTap: () {
+        Navigator.pop(context);
+      },
     );
   }
 

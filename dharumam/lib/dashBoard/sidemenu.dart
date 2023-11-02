@@ -1,3 +1,4 @@
+import 'package:dharumam/dashBoard/main_screen.dart';
 import 'package:flutter/material.dart';
 
 import '../constants/colors.dart';
@@ -44,31 +45,45 @@ class _SidemenuState extends State<Sidemenu> {
     // }
   }
 
+  drawerCloseOpen() {
+    setState(() {
+      if (scaffoldKey.currentState!.isDrawerOpen) {
+        scaffoldKey.currentState!.closeDrawer();
+        //close drawer, if drawer is open
+      } else {
+        // isDrawerOpen = true;
+
+        scaffoldKey.currentState!.openDrawer();
+        //open drawer, if drawer is closed
+      }
+    });
+  }
+
   @override
   Widget build(BuildContext context) {
-    if (isInformation == true || isContrats == true || isDemarches == true) {
-      isAccueil = false;
-      if (isInformation) {
-        setState(() {
-          isSelected = 1;
-          // changePage(1);
-        });
-      }
-      if (isContrats) {
-        setState(() {
-          isSelected = 2;
-          // changePage(2);
-        });
-      }
-      if (isDemarches) {
-        setState(() {
-          isSelected = 3;
-          // changePage(3);
-        });
-      }
-    } else {
-      isAccueil = true;
-    }
+    // if (isInformation == true || isContrats == true || isDemarches == true) {
+    //   isAccueil = false;
+    //   if (isInformation) {
+    //     setState(() {
+    //       isSelected = 1;
+    //       // changePage(1);
+    //     });
+    //   }
+    //   if (isContrats) {
+    //     setState(() {
+    //       isSelected = 2;
+    //       // changePage(2);
+    //     });
+    //   }
+    //   if (isDemarches) {
+    //     setState(() {
+    //       isSelected = 3;
+    //       // changePage(3);
+    //     });
+    //   }
+    // } else {
+    //   isAccueil = true;
+    // }
     double screenHeight = MediaQuery.of(context).size.height;
     double screenWidth = MediaQuery.of(context).size.width;
 
@@ -84,7 +99,7 @@ class _SidemenuState extends State<Sidemenu> {
               children: [
                 const SizedBox(height: 50),
                 Container(
-                  color: Colors.amber,
+                  // color: Colors.amber,
                   height: 150,
                   width: 300,
                   // child: Image.asset(
@@ -110,6 +125,7 @@ class _SidemenuState extends State<Sidemenu> {
                   press: () {
                     setState(() {
                       changePage(0);
+                      drawerCloseOpen();
                     });
                   },
                 ),
@@ -154,6 +170,7 @@ class _SidemenuState extends State<Sidemenu> {
                       // stepFiveDirect = false;
 
                       changePage(1);
+                      drawerCloseOpen();
                     });
                   },
                 ),
@@ -181,7 +198,7 @@ class _SidemenuState extends State<Sidemenu> {
                       // if (mesDemarches = true) {
                       //   mesDemarches = false;
                       // }
-
+                      drawerCloseOpen();
                       changePage(2);
                     });
                   },
@@ -222,7 +239,7 @@ class _SidemenuState extends State<Sidemenu> {
                       // stepFourDirect = false;
                       // directStepFiveCompleted = false;
                       // stepFiveDirect = false;
-
+                      drawerCloseOpen();
                       changePage(3);
                     });
                   },
@@ -241,6 +258,7 @@ class _SidemenuState extends State<Sidemenu> {
                       : unselectedTextColor.withOpacity(0.7),
                   press: () {
                     setState(() {
+                      drawerCloseOpen();
                       changePage(4);
                     });
                   },

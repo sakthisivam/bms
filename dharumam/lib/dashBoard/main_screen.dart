@@ -1,4 +1,4 @@
-
+import 'package:dharumam/payment/payment_method.dart';
 import 'package:flutter/material.dart';
 
 import '../constants/colors.dart';
@@ -18,6 +18,9 @@ class MainScreen extends StatefulWidget {
 }
 
 class _MainScreenState extends State<MainScreen> {
+  @override
+ 
+
   bool isDrawerOpen = true;
   // var screen = [const ProfilePage(),];
 
@@ -114,7 +117,7 @@ class _MainScreenState extends State<MainScreen> {
                     ),
                   ),
                   onTap: () {
-                    print(" * \n*"*8+"##\t##\n"*8);
+                    print(" * \n*" * 8 + "##\t##\n" * 8);
                   },
                 ),
               ),
@@ -128,10 +131,9 @@ class _MainScreenState extends State<MainScreen> {
               ),
             ],
           ),
-         
         ],
       ),
-     
+
       body: SafeArea(
         child: Container(
           decoration: BoxDecoration(
@@ -151,7 +153,6 @@ class _MainScreenState extends State<MainScreen> {
                   controller: pageController,
                   onPageChanged: (value) {
                     setState(() {
-                     
                       pageScreen = value;
                     });
                   },
@@ -160,7 +161,7 @@ class _MainScreenState extends State<MainScreen> {
                     SpecialOffer(),
                     IncomeType(),
                     OfferPlans(),
-                   
+                    PaymentMethod()
                   ],
                 ),
               )
